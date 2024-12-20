@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: img-download
+  datasource:
+    url: ${DB_URL}
+    username: ${DB_ID}
+    password: ${DB_PASSWORD}
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
